@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-size: 1rem;
+  color: darkred;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+  background: linear-gradient(to right, purple, firebrick);
+  border-radius: 2rem;
+  padding: 0.15rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  -webkit-text-stroke: 2px 2px 5px black;
+  text-shadow: 2px 2px 5px whitesmoke;
+  width: 90%;
+  margin: 4rem auto 2rem auto;
+  padding-right: 0.15rem;
+  color: whitesmoke;
+  font-family: serif;
+}
+
+p { 
+  font-family: cursive;
+  display: block;
+  font-size: 3rem;
+  line-height: 2em;
+  width: 70%;
+  font-weight: 900;
+  margin: 0.5rem auto;
+}
+
+.upper {
+  font-size: 3rem;
+}
+
+button {
+  display: block;
+  background-color: darkred;
+  font: inherit;
+  color: whitesmoke;
+  padding: 1rem;
+  width: 80%;
+  height: 60px;
+  margin: auto auto 1.5rem auto;
+  border-radius: 2rem;
+  border: none;
+  font-family: serif;
+}
+
+button:focus, button:active, button:hover
+{
+  width: 90%;
+  height: 70px;
+  font-size: 1.5em;
+  padding: 1rem;
+  background-color: #FF4545;
+  transition: all ease 0.1s;
+}

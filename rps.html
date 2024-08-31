@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RPS - Rock, Paper and Scissors</title>
+  <link rel="stylesheet" href="rps.css">
+</head>
+
+<body onload="getPlayername()">
+  <div id="scoreboard" class="scoreboard">
+    <div class="flex">
+      <span id="playername" class="playername"></span>
+      <span id="userscore">0</span>
+      <span class="computername">Computer: </span>
+      <span id="computerscore">0</span>
+    </div>
+  </div>
+
+  <div id="restart" class="restart" onclick="restart()">
+    Restart
+  </div>
+
+  <h1>CHOOSE...</h1>
+  <section>
+    <div class="box" onclick="checkRock(this)">
+      ️🗿
+      <p>Rock</p>
+    </div>
+    <div class="box" onclick="checkPaper(this)">
+      📄
+      <p>Paper</p>
+    </div>
+    <div class="box" onclick="checkScissors(this)">
+      ✂
+      <p>Scissors</p>
+    </div>
+  </section>
+
+  <div id="scorealert" class="scorealert">
+  </div>
+
+  <div class="board" id="board">
+  </div>
+
+  <script src="rock.js"></script>
+  <script src="paper.js"></script>
+  <script src="scissors.js"></script>
+  <script src="getname.js"></script>
+  <script src="restart.js"></script>
+</body>
+
+</html>
